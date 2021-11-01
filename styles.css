@@ -4,10 +4,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url("https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbm9fQU5PU0hEbV9WbW13NEktSm1GT3VnaFBqZ3xBQ3Jtc0tuNzQ1dFhnR2phTmpzZGQzOE1ZRGd3ckFwZ1NWTnBqOVN4cU1zZEY1ZUdXTFN2YUxiV3hVUkQwb0VuclRiaHNYTHV4TkVZelJrV3BHMXhWX1RxNEd2SXlJRlMzaHpvVDRsTlplUVljMGlkRHBNYy1uQQ&q=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fe5%2F44%2F9f%2Fe5449f451a51336a17626fd5293f5243.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    overflow: hidden;
 }
 
 .helicopter {
  /*   transform: translate(400px, 300px); */
+    position: absolute;
+    right: 500px;
     animation: bounce 5s infinite;
 }
 
